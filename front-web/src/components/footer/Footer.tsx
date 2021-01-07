@@ -8,14 +8,14 @@ function Footer() {
         <footer className="main-footer">
             App desenvolvido durante a 2ª ed. do evento Semana DevSuperior
             <div className="footer-icons">
-                <a href="https://www.google.com" target="_blank">
+                <a href="https://www.google.com" target="_blank" rel="noreferrer">
                     <InstagramSVG/>
                 </a>
-                <a href="https://www.google.com" target="_blank">
+                <a href="https://www.google.com" target="_blank" rel="noreferrer">
                     <LinkedinSVG/>
                 </a>
-                <a href="https://www.google.com" target="_blank">
-                    <InstagramSVG/>
+                <a href="https://www.google.com" target="_blank" rel="noreferrer">
+                    <YoutubeSVG/>
                 </a>
 
             </div>
