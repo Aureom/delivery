@@ -12,11 +12,11 @@ class OrderDTO : Serializable {
     var address: String
     var latitude: Double
     var longitude: Double
-    var moment: Instant
-    var status: OrderStatus
+    var moment: Instant?
+    var status: OrderStatus?
     private var products: List<ProductDTO> = ArrayList<ProductDTO>()
 
-    constructor(id: Long, address: String, latitude: Double, longitude: Double, moment: Instant, status: OrderStatus) {
+    constructor(id: Long, address: String, latitude: Double, longitude: Double, moment: Instant?, status: OrderStatus?) {
         this.id = id
         this.address = address
         this.latitude = latitude

@@ -6,12 +6,12 @@ import java.io.Serializable
 
 class ProductDTO : Serializable {
     var id: Long
-    var name: String
-    var description: String
-    var imageUri: String
-    var price: Double
+    var name: String?
+    var description: String?
+    var imageUri: String?
+    var price: Double?
 
-    constructor(id: Long, name: String, description: String, imageUri: String, price: Double) {
+    constructor(id: Long, name: String?, description: String?, imageUri: String?, price: Double?) {
         this.id = id
         this.name = name
         this.description = description
