@@ -189,7 +189,6 @@
 .order-summary-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
 }
 
 .order-summary-content {
@@ -201,6 +200,7 @@
     background: var(--primary-color);
     color: #FFF;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 .amount-selected-container {
